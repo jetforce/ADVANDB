@@ -25,7 +25,7 @@ public class Frame extends javax.swing.JFrame {
     public Frame() {
         initComponents();
         jTable1.getTableHeader().setReorderingAllowed(false);
-        jTabbedPane1.add("Query 1",new QueryBox1());
+       //jTabbedPane1.add("Query 1",new QueryBox1());
         
     }
     
