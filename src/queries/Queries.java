@@ -34,6 +34,20 @@ public class Queries {
        f.addPanel("PWD", box1);
        query_set.add(new PWD_Query(box1));
        
+       //For Voter Profile
+       age_income_box box2 = new age_income_box();
+       f.addPanel("Voter", box2);
+       query_set.add(new Voter_Profile(box2));
+       
+       //For Phil Health Profile
+       age_income_box box3 = new age_income_box();
+       f.addPanel("PhilH 3 Query", box3);
+       query_set.add(new Phil_Profile3(box3));
+       
+       //for ph 7
+       age_income_box box4 = new age_income_box();
+       f.addPanel("PhilH 7 Query", box4);
+       query_set.add(new Phil_Profile7(box4));
        
        f.setVisible(true);
        System.out.println("Hello");
