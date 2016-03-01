@@ -15,7 +15,7 @@ import java.sql.SQLException;
  */
 public class Data {
     
-    public static Connection con = Data.getConnection("root","");
+    public static Connection con = Data.getConnection("root","admin");
     
     private static Connection getConnection(String user,String password){
          try {

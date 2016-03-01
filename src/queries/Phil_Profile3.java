@@ -49,7 +49,7 @@ public class Phil_Profile3 implements Query{
         "on p_health.`main.id` = filter.`main.id`\n" +
         "and p_health.mem_ref = filter.`memno`\n" +
         "\n" +
-        "where age_group is not null\n" +
+        "where age_group is not null and income_group is not null\n" +
         "group by mun, age_group, `type`,income_group";
         
         
