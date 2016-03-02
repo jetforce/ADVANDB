@@ -55,6 +55,12 @@ public class age_income_box extends javax.swing.JPanel {
         return money;
     }    
     
+    
+    public void disableboxes(){
+        jCheckBox1.setEnabled(false);
+        jCheckBox2.setEnabled(false);
+        jCheckBox3.setEnabled(false);
+    }
 
     /**
      * This method is called from within the constructor to initialize the form.

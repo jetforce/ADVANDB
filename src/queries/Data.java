@@ -15,7 +15,7 @@ import java.sql.SQLException;
  */
 public class Data {
     
-    public static Connection con = Data.getConnection("root","0987");
+    public static Connection con = Data.getConnection("root","admin");
     
     private static Connection getConnection(String user,String password){
          try {
@@ -30,7 +30,7 @@ public class Data {
 	Connection connection = null;
 
 	try {
-                 connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/"+"Marinduque",user,password);
+                 connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/"+"poverty",user,password);
                  //connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/"+"poverty",user,password);
                 //connection = DriverManager.getConnection("jdbc:mysql://localhost/?user="+user+"&password="+password);    
 	} catch (SQLException e) {

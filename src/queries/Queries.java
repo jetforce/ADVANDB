@@ -58,7 +58,13 @@ public class Queries {
        CBEP_Age_Box box6 = new CBEP_Age_Box();
        f.addPanel("CBEP", box6);
        query_set.add(new CBEP_Query(box6));
-       
+            
+       //For reason
+       age_income_box box7 = new age_income_box();
+       f.addPanel("Reason",box7);
+       query_set.add(new Reason(box7));
+       box7.disableboxes();
+   
        f.setVisible(true);
        System.out.println("Hello");
     }
