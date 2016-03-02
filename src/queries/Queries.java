@@ -49,6 +49,16 @@ public class Queries {
        f.addPanel("PhilH 7 Query", box4);
        query_set.add(new Phil_Profile7(box4));
        
+       // For Poverty
+       QueryBox1 box5 = new QueryBox1();
+       f.addPanel("Poverty", box5);
+       query_set.add(new Poverty_Query(box5));
+       
+       // For Poverty
+       CBEP_Age_Box box6 = new CBEP_Age_Box();
+       f.addPanel("CBEP", box6);
+       query_set.add(new CBEP_Query(box6));
+       
        f.setVisible(true);
        System.out.println("Hello");
     }
