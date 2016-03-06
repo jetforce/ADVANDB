@@ -46,7 +46,7 @@ box.getMoney()+
 "where filter_mem.`main.id` = income_perhh.`main.id` and age_group is not null and income_group is not null\n" +
 "group by ynotsch, age_group,income_group";
         
-               Statement s= null;
+       Statement s= null;
        ResultSet rs = null;
         try {
             s = Data.con.createStatement();

@@ -57,6 +57,8 @@ public class age_income_box extends javax.swing.JPanel {
     
     
     public void disableboxes(){
+        jLabel1.setText("");
+        jLabel3.setText("");
         jCheckBox1.setEnabled(false);
         jCheckBox2.setEnabled(false);
         jCheckBox3.setEnabled(false);
